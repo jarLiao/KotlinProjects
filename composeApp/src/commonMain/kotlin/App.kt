@@ -30,7 +30,7 @@ import ui.MainViewModel
 fun App() {
     MaterialTheme {
 //        MyApp(MainViewModel())
-        MainScreen(MainViewModel())  
+        MainScreen(MainViewModel())
 //        var showContent by remember { mutableStateOf(false) }
 //        Column(Modifier.fillMaxWidth().systemBarsPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
 //            Text(
