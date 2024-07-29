@@ -41,7 +41,7 @@ class MainViewModel : ViewModel() {
             }
 
             is MainIntent.ClickDeviceHistory ->{
-
+                //
             }
             is MainIntent.ClickDeviceItem -> {
                 when (mainIntent.deviceType) {
